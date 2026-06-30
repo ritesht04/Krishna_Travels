@@ -1,6 +1,7 @@
 import "./globals.css";
 
 export const metadata = {
+  metadataBase: new URL("https://krishnatourtravels.com"),
   title: "Krishna Tour & Travels Ujjain | Trusted Taxi Service",
   description:
     "Krishna Tour & Travels offers trusted taxi services in Ujjain & Indore. Book cabs for Omkareshwar, Bhopal, Baglamukhi, Mandu, Maheshwar, local sightseeing, airport pickup-drop & outstation travel.",
