@@ -14,7 +14,7 @@ export default function Contact() {
               <span className="text-2xl">📞</span>
               <div>
                 <p className="font-semibold text-secondary text-sm mb-1">Phone</p>
-                <a href="tel:+919999999999" className="text-text-light text-sm hover:text-primary">+91 99999 99999</a>
+                <a href="tel:9131691660" className="text-text-light text-sm hover:text-primary">9131691660</a>
               </div>
             </div>
 
@@ -30,7 +30,7 @@ export default function Contact() {
               <span className="text-2xl">📍</span>
               <div>
                 <p className="font-semibold text-secondary text-sm mb-1">Address</p>
-                <p className="text-text-light text-sm">Your Office Address, Ujjain, Madhya Pradesh</p>
+                <p className="text-text-light text-sm">NanaKheda Bus Stand, Ujjain, Madhya Pradesh</p>
               </div>
             </div>
 

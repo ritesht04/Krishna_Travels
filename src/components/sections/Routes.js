@@ -18,6 +18,8 @@ const routes = [
   { from: "Ujjain", to: "Indore + Omkareshwar (Same Day)", popular: true },
   { from: "Ujjain Local", to: "8 Hours / 80 KM", popular: true },
   { from: "Ujjain Local", to: "Full Day Package", popular: false },
+  { from: "Ujjain ", to: "Savariya Seth", popular: true },
+  { from: "Ujjain", to: "Other City", popular: false },
 ];
 
 export default function Routes() {

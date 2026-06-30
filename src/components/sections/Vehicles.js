@@ -45,7 +45,7 @@ import Image from "next/image";
 const vehicles = [
   { tag: "Top Rated", name: "Aura", seats: "5 Seats", desc: "Premium Sedan for family trips, airport transfers & comfortable outstation travel.", img: "/images/Aura.png" },
   { tag: "Popular", name: "Ertiga", seats: "7 Seats", desc: "Best MPV for local sightseeing, temple tours & group travel with comfort.", img: "/images/Ertiga.JPEG " },
-  { tag: "Budget", name: "Swift Dzire", seats: "4 Seats", desc: "Economical sedan perfect for daily rides, station pickup & city transfers.", img: "/images/swift-dzire.JPEG" },
+  { tag: "Budget", name: "Swift Dzire", seats: "5 Seats", desc: "Economical sedan perfect for daily rides, station pickup & city transfers.", img: "/images/swift-dzire.JPEG" },
   { tag: "Comfort", name: "Baleno", seats: "5 Seats", desc: "Stylish hatchback for smooth local rides, airport drop & city travel.", img: "/images/baleno.JPEG" },
   { tag: "Group Tour", name: "Tempo Traveller", seats: "9-26 Seats", desc: "Ideal for weddings, family groups, pilgrim tours & long route journeys.", img: "/images/tempo-traveller.JPEG" },
   { tag: "Mini Bus", name: "Winger", seats: "9-15 Seats", desc: "Best option for staff transport, group tours & short distance travel.", img: "/images/Winger.JPEG" },
@@ -87,8 +87,8 @@ export default function Vehicles() {
                 </div>
                 <p className="text-text-light text-sm mb-5">{v.desc}</p>
                 <div className="flex gap-3">
-                  <a href="tel:+919999999999" className="flex-1 text-center bg-secondary hover:bg-secondary-dark text-white text-sm font-semibold py-2.5 rounded-full transition-colors">Call Now</a>
-                  <a href="https://wa.me/919999999999" target="_blank" rel="noopener noreferrer" className="flex-1 text-center bg-accent hover:bg-green-700 text-white text-sm font-semibold py-2.5 rounded-full transition-colors">Book Now</a>
+                  <a href="tel:9131691960" className="flex-1 text-center bg-secondary hover:bg-secondary-dark text-white text-sm font-semibold py-2.5 rounded-full transition-colors">Call Now</a>
+                  <a href="https://wa.me/9131691660" target="_blank" rel="noopener noreferrer" className="flex-1 text-center bg-accent hover:bg-green-700 text-white text-sm font-semibold py-2.5 rounded-full transition-colors">Book Now</a>
                 </div>
               </div>
             </div>
