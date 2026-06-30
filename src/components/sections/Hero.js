@@ -13,7 +13,7 @@ export default function Hero() {
           <span className="inline-block bg-primary/20 text-primary font-semibold text-sm px-4 py-1.5 rounded-full mb-4">🛕 Trusted Taxi Service in Ujjain</span>
           <h1 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold text-white leading-tight mb-5">
             Comfortable Taxi Service for{" "}
-            <span className="text-primary">Ujjain</span> Travel
+            <span className="text-primary">Travel</span> 
           </h1>
           <p className="text-gray-200 text-base sm:text-lg mb-8 max-w-xl mx-auto lg:mx-0">
             Krishna Tour & Travels offers comfortable cabs with experienced drivers for Ujjain sightseeing, airport transfers, temple visits, outstation trips, and pooja assistance.
