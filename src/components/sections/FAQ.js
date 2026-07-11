@@ -3,14 +3,21 @@
 import { useState } from "react";
 
 const faqs = [
-  { q: "How can I book a taxi in Ujjain?", a: "You can easily book a taxi by calling us directly, sending a WhatsApp message, or filling out the enquiry form on our website." },
-  { q: "Do you provide Ujjain local sightseeing taxis?", a: "Yes, we offer local sightseeing taxi packages for Mahakal Temple, Kal Bhairav, Harsiddhi Temple and other popular places." },
-  { q: "Do you offer Indore airport pickup & drop service?", a: "Yes, we provide on-time Indore airport pickup and drop service with clean AC cabs and professional drivers." },
-  { q: "What routes are available from Ujjain?", a: "Popular routes include Ujjain to Omkareshwar, Indore, Bhopal, Mandu, Maheshwar and Baglamukhi Temple." },
-  { q: "Are your taxi fares affordable?", a: "Yes, we offer competitive and transparent pricing with no hidden charges. Contact us on call or WhatsApp for the latest fare." },
-  { q: "What types of vehicles are available?", a: "We provide Sedan, SUV, Ertiga, Innova Crysta, Tempo Traveller and group travel vehicles." },
-  { q: "Are drivers verified and professional?", a: "Yes, all our drivers are experienced, polite and verified for safe travel." },
-  { q: "Why choose Krishna Tour & Travels?", a: "We offer clean cabs, best fares, on-time pickup, trusted drivers and 24/7 customer support for every journey." },
+  { q: "How can I book a taxi in Ujjain?", a: "You can easily book a taxi by calling us directly, sending a WhatsApp message, or filling out the enquiry form on our website. We respond within minutes." },
+  { q: "Do you provide cab service for Mahakaleshwar darshan in Ujjain?", a: "Yes, we offer dedicated cab service for Mahakaleshwar darshan including early morning Bhasma Aarti pickups. We cover all Ujjain temples — Kal Bhairav, Harsiddhi Mata, Mangalnath, Ram Ghat, Chintaman Ganesh, Sandipani Ashram and Navgrah Mandir." },
+  { q: "Do you provide Ujjain local sightseeing taxis?", a: "Yes, we offer local sightseeing taxi packages for Mahakal Temple, Kal Bhairav, Harsiddhi Temple, Ram Ghat, Mangalnath, Chintaman Ganesh, Sandipani Ashram, Bhartrihari Caves, Gadkalika Temple and all popular places in Ujjain." },
+  { q: "Do you offer Indore airport pickup & drop service?", a: "Yes, we provide on-time Indore airport (Devi Ahilya Bai Holkar Airport) pickup and drop service from Ujjain with clean AC cabs and professional drivers, available 24 hours a day." },
+  { q: "What routes are available from Ujjain?", a: "Popular routes include Ujjain to Omkareshwar, Ujjain to Indore, Ujjain to Bhopal, Ujjain to Mandu, Ujjain to Maheshwar, Ujjain to Baglamukhi Temple, Ujjain to Dewas, Ujjain to Dhar, Ujjain to Ratlam and Ujjain to Mandsaur." },
+  { q: "What is the fare for Ujjain to Omkareshwar taxi?", a: "Our Ujjain to Omkareshwar taxi fare depends on the vehicle type (Sedan, Ertiga, Innova). Contact us on WhatsApp for the latest and most affordable price. We offer AC cabs with a full-day return trip option." },
+  { q: "Do you provide early morning Bhasma Aarti cab service in Ujjain?", a: "Yes, we provide early morning cab service for Bhasma Aarti at Mahakaleshwar Temple. Our drivers pick you up at any hour — 3 AM, 4 AM or whenever your darshan is scheduled." },
+  { q: "Do you provide service during Simhastha Kumbh Mela in Ujjain?", a: "Yes, Krishna Tour & Travels provides reliable cab and taxi services during Simhastha Kumbh Mela in Ujjain. We handle pilgrim transportation, group travel and outstation trips during the Kumbh period." },
+  { q: "Are your taxi fares affordable?", a: "Yes, we offer competitive and transparent pricing with no hidden charges. We provide best-price cabs in Ujjain for temple tours, outstation trips and airport transfers. Contact us on call or WhatsApp for the latest fare." },
+  { q: "What types of vehicles are available?", a: "We provide a variety of vehicles: Sedan (Swift Dzire, Honda Amaze), Ertiga (6-seater), Innova Crysta (7-seater), Tempo Traveller (12-seater) for group travel and other options to suit your budget and group size." },
+  { q: "Do you offer one-day trip packages from Ujjain?", a: "Yes! Popular one-day trips from Ujjain include Ujjain to Omkareshwar & back, Ujjain to Maheshwar, Ujjain to Mandu, and combined Indore + Omkareshwar same-day tours." },
+  { q: "Can I book a cab from Ujjain to Indore city?", a: "Yes, we provide affordable Ujjain to Indore city transfer. Our cabs depart at your chosen time and drop you anywhere in Indore city — railway station, bus stand, airport or hotel." },
+  { q: "Do you offer Ram Ghat taxi service in Ujjain?", a: "Yes, we provide cab service to Ram Ghat for evening Aarti and early morning holy dips. Ram Ghat is one of the most visited places in Ujjain and we ensure on-time pickup and drop." },
+  { q: "Are drivers verified and professional?", a: "Yes, all our drivers are experienced, verified and polite. They know all Ujjain temples, roads and routes very well. Your safety and comfort are our top priority." },
+  { q: "Why choose Krishna Tour & Travels?", a: "We offer clean AC cabs, best fares in Ujjain, on-time pickup, experienced & trusted drivers, 24/7 customer support, pooja assistance, and customised tour packages for pilgrims and tourists visiting Ujjain." },
 ];
 
 export default function FAQ() {
